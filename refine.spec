@@ -28,7 +28,7 @@ Requires: dconf
 Refine helps discover advanced and experimental features in GNOME.
 
 %prep
-%autosetup -n %{name}-%{version} -p1
+%autosetup -n Refine-%{version} -p1
 
 %build
 %meson -Dprofile=default
