@@ -12,7 +12,8 @@ Group: Graphical desktop/GNOME
 Url: https://gitlab.gnome.org/TheEvilSkeleton/Refine
 Source0: https://gitlab.gnome.org/TheEvilSkeleton/Refine/-/archive/%{version}/Refine-%{version}.tar.bz2
 
-BuildRequires: meson 
+BuildRequires: gettext
+BuildRequires: meson
 BuildRequires: pkgconfig(blueprint-compiler)
 BuildRequires: pkgconfig(libadwaita-1)
 BuildRequires: desktop-file-utils
