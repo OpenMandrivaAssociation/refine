@@ -32,7 +32,7 @@ Refine helps discover advanced and experimental features in GNOME.
 %autosetup -n Refine-%{version} -p1
 
 %build
-%meson -Dprofile=default
+%meson
 %meson_build
 
 %install
