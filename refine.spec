@@ -1,7 +1,7 @@
 %define		debug_package %{nil}
 
 Name:		refine
-Version:	0.7.1
+Version:	0.9.0
 Release:	1
 Source0:	https://gitlab.gnome.org/TheEvilSkeleton/Refine/-/archive/%{version}/Refine-%{version}.tar.gz
 Summary:	Tweak various aspects of GNOME
